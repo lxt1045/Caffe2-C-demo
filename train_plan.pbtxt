@@ -117,7 +117,7 @@ network{
 		}
 	}
 	device_option {
-		device_type: 1
+		device_type: 0
 	} 
 }
 network{
@@ -697,7 +697,7 @@ network{
 		}
 	}
 	device_option {
-		device_type: 1
+		device_type: 0
 	}
 	external_input: "dbreader"
 	external_input: "conv1_w"
@@ -741,7 +741,7 @@ network{
 	external_input: "pred_w"
 	external_input: "pred_b"
 	device_option {
-		device_type: 1
+		device_type: 0
 	}
 }
 execution_step {
